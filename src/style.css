@@ -5,7 +5,7 @@ body {
 
 header {
   text-align: center;
-  padding: 260px 0 50px;
+  padding: 260px 0 260px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(../img/visit-ticino-homepage.jpg);
   background-repeat: no-repeat;
@@ -53,14 +53,61 @@ header a {
   margin: 0 auto;
 }
 
-.intern-button {
-}
-
 footer {
+  color: white;
   margin-top: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/visit-ticino-homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+section {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
 }
 
-@media (max-width: 800px) {
+footer h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: left;
+}
+
+footer li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+footer p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  opacity: 0.9;
+  padding: 0;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.footer-box {
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
