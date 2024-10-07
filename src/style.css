@@ -101,9 +101,15 @@ footer p {
 
 .grid {
   display: grid;
+  grid-gap: 20px;
+}
+
+.grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-section {
+}
 .footer-box {
 }
 
@@ -122,5 +128,17 @@ footer p {
 
   header h3 {
     font-size: 20px;
+  }
+  footer {
+    padding: 50px;
+  }
+  .grid {
+    display: block;
+  }
+  .grid h3 {
+    margin-top: 20px;
+  }
+  .footer-only-bs {
+    display: none;
   }
 }
