@@ -66,7 +66,7 @@ main {
 main h2 {
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 0.5;
   letter-spacing: 5px;
   text-align: left;
   opacity: 30%;
@@ -91,6 +91,50 @@ section {
   padding: 100px 50px;
 }
 
+.text-center {
+  text-align: center;
+}
+
+section.secondary {
+  background-color: #f8f8f8;
+}
+.card-header {
+  background-color: white;
+  margin-top: 50px;
+}
+
+.card-body {
+  padding: 0 20px;
+}
+.section-1 {
+  background-image: url(../img/whyticino.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main h4 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.card img {
+  max-height: 300px;
+  max-width: 50%;
+}
+
+.button {
+  display: block;
+  color: white;
+  margin: 0 20px 10px;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #462cb2;
+}
+
 footer {
   color: white;
 
@@ -100,11 +144,6 @@ footer {
   background-size: cover;
 }
 
-.section-1 {
-  background-image: url(../img/whyticino.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 footer a {
   color: white;
   opacity: 0.7;
@@ -140,7 +179,9 @@ footer p {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
-
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
@@ -162,8 +203,13 @@ footer p {
     font-size: 20px;
   }
 
-  main img {
+  .why-ticino {
     display: none;
+  }
+
+  .card-header {
+    background-color: white;
+    margin-top: 20px;
   }
   footer {
     padding: 50px;
