@@ -103,8 +103,16 @@ section.secondary {
   margin-top: 50px;
 }
 
+.card-header .grid {
+  grid-gap: 0;
+}
+
 .card-body {
   padding: 0 20px;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 .section-1 {
   background-image: url(../img/whyticino.jpg);
@@ -117,12 +125,12 @@ main h4 {
   font-weight: 700;
   text-align: left;
   line-height: 1.5;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .card img {
-  max-height: 300px;
-  max-width: 50%;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .button {
@@ -185,6 +193,7 @@ footer p {
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
@@ -213,6 +222,14 @@ footer p {
   .card-header {
     background-color: white;
     margin-top: 20px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
   footer {
     padding: 50px;
