@@ -126,13 +126,16 @@ main h4 {
 }
 
 .button {
+  font-size: 12px;
+  font-weight: 700;
   display: block;
-  color: white;
-  margin: 0 20px 10px;
-  padding: 16px;
+  max-width: 100px;
+  color: black;
+  margin: 20px auto;
+  padding: 10px 20px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: #462cb2;
+  background-color: antiquewhite;
 }
 
 footer {
