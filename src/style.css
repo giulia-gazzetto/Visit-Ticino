@@ -52,6 +52,12 @@ header a {
   margin-top: 32px;
   color: black;
   text-decoration: none;
+  border: 2px solid whitesmoke;
+}
+
+header a:hover {
+  background-color: transparent;
+  color: whitesmoke;
 }
 
 .container {
@@ -144,6 +150,11 @@ main h4 {
   text-decoration: none;
   text-transform: uppercase;
   background-color: antiquewhite;
+  border: 2px solid antiquewhite;
+}
+
+.button:hover {
+  background-color: transparent;
 }
 
 footer {
@@ -160,6 +171,9 @@ footer a {
   opacity: 0.7;
 }
 
+footer a:hover {
+  opacity: 1;
+}
 footer h3 {
   font-size: 20px;
   font-weight: 700;
