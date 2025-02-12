@@ -11,19 +11,30 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
   </head>
 
   <body>
-    <div class="container">
+    <div class="container" aria-label="ticino">
       <header>
-        <h3>.TRAVEL.</h3>
-        <h1>Welcome to Ticino</h1>
-        <h2>Canton of wonders</h2>
-        <a href="#more" class="intern-button">Learn more</a>
+        <div data-aos="fade-in" data-aos-delay="300" data-aos-duration="1000">
+          <h3>.TRAVEL.</h3>
+          <h1>Welcome to Ticino</h1>
+          <h2>The Canton of Wonders</h2>
+          <a href="#more" class="intern-button">Learn more</a>
+        </div>
       </header>
     </div>
     <main class="container">
-      <section class="grid grid-2-columns">
+      <section
+        class="grid grid-2-columns"
+        data-aos="fade-in"
+        data-aos-delay="100"
+        data-aos-duration="500"
+      >
         <div>
           <img src="/img/whyticino.jpg" alt="ticino" class="why-ticino" />
         </div>
@@ -31,20 +42,20 @@
           <h2>Why Ticino</h2>
           <h3>Ticino, in all his beauty</h3>
           <p>
-            The legend has it that Lisbon was named Olissipo by the Romans, for
-            its resemblance to the Roman capital. Just like Rome, Lisbon began
-            its life as a humble settlement nestled among seven hills. However,
-            it wasn't until the 17th century, in the writing of Frey Nicolao
-            d'Oliveira, that Lisbon came to be called 'a cidade das sete
-            colinas' - the city of seven hills.
+            Legend has it that Ticino, nestled between majestic mountains and
+            serene lakes, has long been a meeting point of cultures, where Swiss
+            precision meets Mediterranean warmth. Once a land of ancient
+            settlements and Roman roads, it flourished as a bridge between
+            northern and southern Europe.
           </p>
           <p>
-            You can still see traces of ancient Lisbon today. Beyond the array
-            of shops with international brands, peaceful streetside cafes
-            selling the iconic pastel de nata and world class restaurants with a
-            variety of global cuisine, you can still wander the seven hills and
-            see the city from above, taking in the rolling terracotta rooftops,
-            the whitewashed walls and on the horizon, the soft blue sea.
+            Today, traces of Ticino’s storied past blend seamlessly with its
+            modern charm. Beyond the elegant piazzas lined with pastel-hued
+            buildings, the bustling markets selling local cheeses and wines, and
+            the lakeside promenades where life moves at a leisurely pace, you
+            can still wander through medieval villages, explore centuries-old
+            castles, and take in breathtaking views of the Alps reflected in
+            crystal-clear waters.
           </p>
         </div>
       </section>
@@ -66,11 +77,12 @@
               ></iframe>
             </div>
 
-            <h4 class="card-body">Lugano Lake</h4>
+            <h4 class="card-body">Lugano and Lake Lugano</h4>
             <p class="card-body">
-              A lively all-day café with an outdoor terrace that serves
-              everything you could want from breakfast and brunch to evening
-              cocktails.
+              A charming lakeside city with scenic parks, elegant architecture,
+              and breathtaking mountain views. Perfect for a relaxing stroll
+              along the waterfront or a fun day out with activities ranging from
+              boat rides to hiking trails.
             </p>
             <a
               class="button text-center card-body"
@@ -90,11 +102,12 @@
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-            <h4 class="card-body">Biasca's Waterfall</h4>
+            <h4 class="card-body">Toce Waterfalls</h4>
             <p class="card-body">
-              A lively all-day café with an outdoor terrace that serves
-              everything you could want from breakfast and brunch to evening
-              cocktails.
+              A stunning natural wonder in a pristine valley, where
+              crystal-clear waters cascade through lush landscapes. A must-see
+              for nature lovers and adventure enthusiasts, perfect for hiking
+              and enjoying the fresh mountain air.
             </p>
             <a
               class="button text-center card-body"
@@ -114,11 +127,12 @@
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-            <h4 class="card-body">Castles</h4>
+            <h4 class="card-body">Bellinzona and its Castles</h4>
             <p class="card-body">
-              A lively all-day café with an outdoor terrace that serves
-              everything you could want from breakfast and brunch to evening
-              cocktails.
+              A historic town famous for its medieval castles, which are UNESCO
+              World Heritage sites, set against a backdrop of dramatic
+              mountains. A perfect destination for history buffs and those who
+              appreciate timeless architecture.
             </p>
             <a
               class="button text-center card-body"
@@ -150,9 +164,9 @@
           <div class="footer-only-bs">
             <h3>About me</h3>
             <p>
-              Hi! My name is Giulia and I've been visiting Ticino for several
-              years. I'm very fond of this canton. I created this page as part
-              of a project for SheCodes Responsive to develop my coding skills.
+              Hi! My name is Giulia and I've been visiting Ticino for a while.
+              I'm very fond of this canton. I created this page as part of a
+              project for SheCodes Responsive to develop my coding skills.
             </p>
           </div>
           <div>
@@ -167,5 +181,9 @@
         </section>
       </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
